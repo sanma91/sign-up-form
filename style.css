@@ -1,0 +1,52 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: row;
+  height: 100vh
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+
+/* css reset from Josh Comeau */
+
+.image-section {
+    background: url(images/cecilia-frost-M9D3poaqPzk-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.odin-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 640px;
+    font-size: 7rem;
+}
+.form-section {
+    background-color: white;
+    width: 1280px;
+}
