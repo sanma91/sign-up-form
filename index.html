@@ -39,14 +39,15 @@
                 </ul>
                 <ul>
                     <li><label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password"></li>
-                   <li><label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="password" id="password" minlength="8" maxlength="16" required></li>
+                    <span></span>
+                    <li><label for="confirm-password">CONFIRM PASSWORD</label>
                     <input type="password" name="confirm-password" id="confirm-password"></li>
                 </ul>
         </form>
         <footer class="form">
             <button>Create account</button>
-            <p>Already have an account? Log in</p>
+            <p>Already have an account? <a href="https://www.google.com/" style="color:rgba(110, 88, 73); text-decoration: none;">Log in</a></p>
         </footer>
     </div>
     <script src="script.js"></script>
