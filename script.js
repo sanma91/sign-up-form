@@ -1,1 +1,0 @@
-console.log(window.screen.height / 3 * 2)

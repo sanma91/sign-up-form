@@ -92,11 +92,15 @@ input:focus {
   border: 1px solid rebeccapurple;
   box-shadow: 2px 4px rgba(102, 51, 153, 0.6);
 }
+input:invalid {
+  border: 1px solid red;
+  box-shadow: 2px 4px rgb(255, 0, 0, 0.6);
+}
 footer.form {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   flex-grow: 2;
 }
-footer.form> button {
+footer.form> input{
   margin-top: 3rem;
   margin-left: 5.5rem;
   background-color: rgba(110, 88, 73, 0.5);
